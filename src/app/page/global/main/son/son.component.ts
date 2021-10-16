@@ -7,12 +7,17 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 })
 export class SonComponent implements OnInit {
   @Input() public messageSon!: string;
+  @Output() public emitMessage = new EventEmitter<string>();
+  
+  public message: string = '';
   
   
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+  public sendMessage() {
+    this.emitMessage.emit(this.message);
   }
 
 }

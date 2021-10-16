@@ -1,0 +1,22 @@
+.characters-container {
+  display: flex;
+
+  li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 30px;
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+      height: 45px;
+    }
+    p {
+      font-size: large;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}

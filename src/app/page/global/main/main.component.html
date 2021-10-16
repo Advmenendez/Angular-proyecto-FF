@@ -42,8 +42,14 @@
     </p>
     <p>Algunos de ellos son realmente molestos,interactual con el siguiente:</p>
     <input #father (keyup)="onKeyUp(father.value)" />
+    
     <div>
-      <app-son [messageSon]="messageFather"> </app-son>
+      <app-son [messageSon]="messageFather"  (emitMessage)="setMessage($event)"> </app-son>
     </div>
   </div>
+</div>
+
+<div class="father">
+  <h3>Mensajes de mi amigo</h3>
+  <p>{{messageSon}}</p>
 </div>

@@ -1,44 +1,84 @@
-.main-container{
+.main-container {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-size: 80px;
+    text-align: center;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/42/778/386/the-game-motorcycle-game-final-fantasy-vii-hd-wallpaper-preview.jpg);
+    height: 100px;
+  }
+  p {
+    font-size: 23px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url(https://lh3.googleusercontent.com/proxy/YlTRUYMT07utWcBeIErrj0adcW4__675O-EEVwXf6pSINVwXdAkFbAFgEY7nR46cV54IXteDascyendQ6jJN92zNcd5XySTsSC0vG0qKiO5faONBlHzG107Ad95quSZGPXHZ8-tnoEJZ);
+    height: 45px;
+  }
+  img {
     display: flex;
-    flex-direction: column;
-    h1{
-        font-size: 80px;
-        text-align: center;
-        background-image: url(https://p4.wallpaperbetter.com/wallpaper/42/778/386/the-game-motorcycle-game-final-fantasy-vii-hd-wallpaper-preview.jpg);
-        height: 100px;
-    }
-    p{
-        font-size: 23px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    h2{
-        text-align: center;
-        text-transform: uppercase;
-        background-image: url(https://lh3.googleusercontent.com/proxy/YlTRUYMT07utWcBeIErrj0adcW4__675O-EEVwXf6pSINVwXdAkFbAFgEY7nR46cV54IXteDascyendQ6jJN92zNcd5XySTsSC0vG0qKiO5faONBlHzG107Ad95quSZGPXHZ8-tnoEJZ);
-        height: 45px;
-    }
-    img{
-        display: flex;
-        flex-direction: row;
-        width: 40%;
-        align-self: center;
-    }
-    
+    flex-direction: row;
+    width: 40%;
+    align-self: center;
+  }
 }
 
-.button{
+.button {
+  display: flex;
+  flex-direction: column;
+  h3 {
+    text-align: center;
+    text-transform: uppercase;
+    height: 45px;
+  }
+  img {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    align-self: center;
+  }
+}
+
+.father {
+  display: flex;
+  flex-direction: column;
+  h3 {
+    text-align: center;
+    text-transform: uppercase;
+    height: 45px;
+  }
+  p {
+    text-align: center;
+    text-transform: uppercase;
+    height: 45px;
+  }
+  img {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    align-self: center;
+  }
+}
+.son {
     display: flex;
     flex-direction: column;
-    h3{
-        text-align: center;
-        text-transform: uppercase;
-        height: 45px;
-
+    align-items: center;
+    h3 {
+      text-align: center;
+      text-transform: uppercase;
+      height: 45px;
     }
-    img{
-        display: flex;
-        flex-direction: row;
-        width: 40%;
-        align-self: center;
+    p {
+      text-align: center;
+      text-transform: uppercase;
+      height: 45px;
     }
-}
+    img {
+      display: flex;
+      flex-direction: row;
+      width: 40%;
+      align-self: center;
+    }
+  }

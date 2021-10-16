@@ -9,7 +9,7 @@ import { Main } from '../models/ff-model';
 export class MainComponent implements OnInit {
   @Input() public main!: Main;
   public messageFather: string = '';
-  
+  public messageSon: string = '';
 
   constructor() {}
 
@@ -23,5 +23,8 @@ export class MainComponent implements OnInit {
     } else if (this.main.button == '¡Calmarlo!') {
       this.main.button = '¡Enfadar al chocobo!';
     }
+  }
+  public setMessage(event: string) {
+    this.messageSon = event;
   }
 }
