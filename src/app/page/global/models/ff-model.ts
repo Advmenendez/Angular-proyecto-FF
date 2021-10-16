@@ -18,10 +18,10 @@ export interface Main{
     titleChocobo: string;
     chocobo: Img;
     button: string;
-    formulario: string;
     happychocobo: Img;
     angrychocobo: Img;
     moguri: Img;
+    formulario: string;
 }
 
 export interface Characters{
@@ -33,7 +33,6 @@ export interface Characters{
 }
 export interface Games {
     title: string;
-    description: string;
     img: Img;
 
 }

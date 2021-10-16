@@ -1,1 +1,6 @@
-<p>games works!</p>
+<ul class="games-container">
+    <li *ngFor="let game of games">
+        <h1>{{game.title}}</h1>
+        <img src="{{game.img.src}}" alt="{{game.img.src}}">
+    </li>
+</ul>

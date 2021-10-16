@@ -8,6 +8,7 @@ import { NavComponent } from './page/global/nav/nav.component';
 import { MainComponent } from './page/global/main/main.component';
 import { CharactersComponent } from './page/global/characters/characters.component';
 import { GamesComponent } from './page/global/games/games.component';
+import { SonComponent } from './page/global/main/son/son.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GamesComponent } from './page/global/games/games.component';
     NavComponent,
     MainComponent,
     CharactersComponent,
-    GamesComponent
+    GamesComponent,
+    SonComponent
   ],
   imports: [
     BrowserModule,

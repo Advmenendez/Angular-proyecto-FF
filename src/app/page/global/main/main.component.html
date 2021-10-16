@@ -1,22 +1,49 @@
 <div class="main-container">
   <h1>{{ main.title }}</h1>
   <p>{{ main.description }}</p>
-  <h2>{{main.titleChocobo}}</h2>
-  <img src="{{main.chocobo.src}}" alt="{{main.chocobo.alt}}">
-  <p>Una raza de aves no voladoras, caracterizada por sus plumas amarillas, olor distintivo y el inolvidable chirrido, "kweh!" Domesticados por su naturaleza suave y pies rápidos, a menudo se utilizan como medio de transporte terrestre.
-      ¡Cuidado con enfadarles!
+  <h2>{{ main.titleChocobo }}</h2>
+  <img src="{{ main.chocobo.src }}" alt="{{ main.chocobo.alt }}" />
+  <p>
+    Una raza de aves no voladoras, caracterizada por sus plumas amarillas, olor
+    distintivo y el inolvidable chirrido, "kweh!" Domesticados por su naturaleza
+    suave y pies rápidos, a menudo se utilizan como medio de transporte
+    terrestre. ¡Cuidado con enfadarles!
   </p>
-  <div *ngIf="main.button == '¡Enfadar al chocobo!'">
-    <h1>Chocobo Feliz</h1>
-    <img src="{{main.happychocobo.src}}" alt="{{main.happychocobo.alt}}">
-    <button (click)="onClickButton()">{{main.button}}</button>
-</div>
+  
+    <div class="button" *ngIf="main.button == '¡Enfadar al chocobo!'">
+      <h3>Chocobo Feliz</h3>
+      <img
+        src="{{ main.happychocobo.src }}"
+        alt="{{ main.happychocobo.alt }}"
+      />
+      <button (click)="onClickButton()">{{ main.button }}</button>
+    </div>
 
-<div *ngIf="main.button == '¡Calmarlo!'">
-    <h1>Chocobo enfadado</h1>
-    <img src="{{main.angrychocobo.src}}" alt="{{main.angrychocobo.alt}}">
-    <button (click)="onClickButton()">{{main.button}}</button>
-</div>
-</div>
+    <div class="button" *ngIf="main.button == '¡Calmarlo!'">
+      <h3>Chocobo enfadado</h3>
+      <img
+        src="{{ main.angrychocobo.src }}"
+        alt="{{ main.angrychocobo.alt }}"
+      />
+      <button (click)="onClickButton()">{{ main.button }}</button>
+    </div>
+ 
 
-
+  <div>
+    <h2>Moguri</h2>
+    <p>
+      Su apariencia es similar a la de un gato humanoide, habitualmente de color
+      blanco, con alas de pequeño tamaño y color rojo o púrpura y una antena
+      sobre su cabeza que termina en una bola roja (pompón). Sus orejas son
+      similares a las de un gato o un perro. Emplean habitualmente como
+      coletilla la palabra «kupó». Su comida favorita son las nueces de kupó
+      (Kupo Nut en inglés) y podría ser la razón por la cual continuamente usen
+      la palabra «kupó» en sus diálogos.
+    </p>
+    <p>Algunos de ellos son realmente molestos,interactual con el siguiente:</p>
+    <input #father (keyup)="onKeyUp(father.value)" />
+    <div>
+      <app-son [messageSon]="messageFather"> </app-son>
+    </div>
+  </div>
+</div>
