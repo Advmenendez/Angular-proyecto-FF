@@ -1,0 +1,21 @@
+.son {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3 {
+      text-align: center;
+      text-transform: uppercase;
+      height: 45px;
+    }
+    p {
+      text-align: center;
+      text-transform: uppercase;
+      height: 45px;
+    }
+    img {
+      display: flex;
+      flex-direction: row;
+      width: 20%;
+      align-self: center;
+    }
+  }

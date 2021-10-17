@@ -1,8 +1,14 @@
-<ul class="characters-container">
-    <li  *ngFor="let character of characters">
-        <h1>{{character.name}}</h1>
-        <p>{{character.game}}</p>
-        <p>{{character.description}}</p>
-        <img src="{{character.img.src}}" alt="{{character.img.src}}">
+
+<h1>Personajes</h1>
+
+
+<div class="characters">
+  <ul class="characters__container">
+    <li class="characters__item"  *ngFor="let character of characters">
+      <h2 class="characters__name">{{ character.name }}</h2>
+      <p class="characters__caption">{{ character.game }}</p>
+      <img src="{{ character.img.src }}" alt="{{ character.img.src }}" />
+      <p class="characters__caption">{{ character.description }}</p>
     </li>
-</ul>
+  </ul>
+</div>

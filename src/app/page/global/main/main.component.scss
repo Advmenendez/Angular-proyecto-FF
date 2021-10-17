@@ -16,6 +16,8 @@
     text-transform: uppercase;
     background-image: url(https://lh3.googleusercontent.com/proxy/YlTRUYMT07utWcBeIErrj0adcW4__675O-EEVwXf6pSINVwXdAkFbAFgEY7nR46cV54IXteDascyendQ6jJN92zNcd5XySTsSC0vG0qKiO5faONBlHzG107Ad95quSZGPXHZ8-tnoEJZ);
     height: 45px;
+    font-size: 110px;
+    padding: 20px;
   }
   img {
     display: flex;
@@ -40,7 +42,10 @@
     align-self: center;
   }
 }
-
+.fatherInput {
+  align-self: center;
+  margin-bottom: 20px;
+}
 .father {
   display: flex;
   flex-direction: column;
@@ -54,31 +59,13 @@
     text-transform: uppercase;
     height: 45px;
   }
+  input {
+    align-items: center;
+  }
   img {
     display: flex;
     flex-direction: row;
-    width: 40%;
+    width: 20%;
     align-self: center;
   }
 }
-.son {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    h3 {
-      text-align: center;
-      text-transform: uppercase;
-      height: 45px;
-    }
-    p {
-      text-align: center;
-      text-transform: uppercase;
-      height: 45px;
-    }
-    img {
-      display: flex;
-      flex-direction: row;
-      width: 40%;
-      align-self: center;
-    }
-  }
