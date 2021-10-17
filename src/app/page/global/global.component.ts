@@ -24,7 +24,7 @@ export class GlobalComponent implements OnInit {
           'Final Fantasy (ファイナルファンタジー Fainaru Fantajī?) es una franquicia de medios creada por Hironobu Sakaguchi y desarrollada por Square Enix (antes conocida como Squaresoft). La franquicia se centra en una serie de fantasía y ciencia ficción de videojuegos RPG. Aunque la mayoría de las entregas de la serie son historias propias con diferentes personajes y escenarios, existen ciertos temas recurrentes que definen a la franquicia. Algunos de estos temas incluyen elementos argumentales, nombres de personajes y mecánicas de jugabilidad. La trama normalmente constituye en un grupo de héroes, normalmente jóvenes, que luchan contra un mal mayor, mientras enfrentan ciertos problemas personales y se exploran sus personalidades y relaciones con otros personajes. Comúnmente los nombres de personajes y escenarios provienen de diferentes nombres de lenguajes, culturas y mitologías alrededor del mundo, así como más recientemente de la cultura popular. Dentro del universo Final Fantasy encontraras criaturas de lo mas pintorescas :',
         titleChocobo: 'Chocobos',
         chocobo: {
-          src: 'https://pbs.twimg.com/media/EVLRSmQVAAA11Zl.jpg',
+          src: 'https://cdn.myminifactory.com/assets/object-assets/5ecea442a97e3/images/720X720-chocobo-sk.jpg',
           alt: 'Chocobo',
         },
         button: '¡Enfadar al chocobo!',
@@ -149,7 +149,7 @@ export class GlobalComponent implements OnInit {
           description:
             'Príncipe del Reino de Lucis, con sus ojos puede sentir la muerte de otros. Sus amigos le llaman Noct.',
           img: {
-            src: 'https://static.wikia.nocookie.net/finalfantasy/images/9/9b/DFFNT_Noctis_CG_Render.png',
+            src: 'https://static.wikia.nocookie.net/finalfantasy/images/9/9b/DFFNT_Noctis_CG_Render.png/revision/latest?cb=20171101165034',
             alt: 'Noctis',
           },
         },

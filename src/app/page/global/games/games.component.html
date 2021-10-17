@@ -5,10 +5,11 @@
 
 
 
-
-<ul class="games-container">
-    <li *ngFor="let game of games">
-        <h2>{{game.title}}</h2>
+<div class="games">
+<ul class="games__container">
+    <li class="games__item" *ngFor="let game of games">
+        <h2 class="games__name">{{game.title}}</h2>
         <img src="{{game.img.src}}" alt="{{game.img.src}}">
     </li>
 </ul>
+</div>

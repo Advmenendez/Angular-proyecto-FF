@@ -11,16 +11,26 @@
   </p>
 
   <div class="button" *ngIf="main.button == '¡Enfadar al chocobo!'">
-    <h3>Chocobo Feliz</h3>
+    <p>Chocobo Feliz</p>
     <img src="{{ main.happychocobo.src }}" alt="{{ main.happychocobo.alt }}" />
     <button (click)="onClickButton()">{{ main.button }}</button>
   </div>
 
   <div class="button" *ngIf="main.button == '¡Calmarlo!'">
-    <h3>Chocobo enfadado</h3>
+    <p>Chocobo enfadado</p>
     <img src="{{ main.angrychocobo.src }}" alt="{{ main.angrychocobo.alt }}" />
     <button (click)="onClickButton()">{{ main.button }}</button>
   </div>
+  <h2>Invocaciones</h2>
+  <p>
+    Son criaturas poderosas que, normalmente, pueden ser llamadas al combate
+    para que luchen por sus invocadores. La naturaleza exacta de las
+    invocaciones varía a lo largo de los títulos, llegando a aparecer en
+    algunos juegos como una tribu de criaturas o incluso como deidades, por
+    tanto su papel en la historia de los juegos también ha ido variando con el
+    tiempo.
+  </p>
+  <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2016/02/566826-mejores-invocaciones-final-fantasy.jpg?itok=PLNklU8F" alt="Invocacion">
 
   <div>
     <h2>Moguris</h2>
@@ -51,16 +61,4 @@
       </app-son>
     </div>
   </div>
-  <div class="invocaciones">
-    <h2>Invocaciones</h2>
-    <p>
-      Son criaturas poderosas que, normalmente, pueden ser llamadas al combate
-      para que luchen por sus invocadores. La naturaleza exacta de las
-      invocaciones varía a lo largo de los títulos, llegando a aparecer en
-      algunos juegos como una tribu de criaturas o incluso como deidades, por
-      tanto su papel en la historia de los juegos también ha ido variando con el
-      tiempo.
-    </p>
-    <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2016/02/566826-mejores-invocaciones-final-fantasy.jpg?itok=PLNklU8F" alt="Invocacion">
-  </div>
-</div>
+  
